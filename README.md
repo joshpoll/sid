@@ -10,9 +10,17 @@ your VSCode settings for "file association" and then filling out a new row in th
 Idyll and Svelte are great tools on their own, but even better together.
 
 Idyll's greatest strength is that it provides a great collection of built-in components, templates, and styles
-that makes authoring interactive articles much easier. Svelte's greatest strengths lie in its
-reactive semantics, language tooling, and component composition. By rewriting Idyll as a Svelte
-library, we get the best of both worlds.
+that makes authoring interactive articles much easier.'
+
+Svelte's greatest strengths lie in its
+reactive semantics, language tooling, and component composition.
+
+By rewriting Idyll as a Svelte library, we get the best of both worlds. A great library of defaults
+that lets you
+- embed sid files in other sid files
+- use any svelte component as a sid component
+- get typing information, compiler errors, autocomplete, and syntax highlighting
+- take advantage of existing svelte and MDsveX documentation and their future advancements
 
 ## How does it work?
 
