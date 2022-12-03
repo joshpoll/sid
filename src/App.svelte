@@ -1,10 +1,14 @@
 <script lang="ts">
 	export let name: string;
+  import Test from './Test.sid';
+  import Test2 from './Test2.svelte';
 </script>
 
 <main>
 	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build
+	Svelte apps.</p>
+  <Test />
 </main>
 
 <style>
