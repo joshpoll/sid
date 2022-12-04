@@ -1,0 +1,14 @@
+<script lang="ts">
+  import Boolean from "./Boolean.sid";
+
+  let myVar = false;
+</script>
+
+<Boolean bind:value={myVar} />
+
+Checkbox 
+{#if myVar}
+  is checked
+{:else}
+  isn't checked
+{/if}
