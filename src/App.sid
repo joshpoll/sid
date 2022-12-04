@@ -11,7 +11,7 @@ author: jmp
   import DisplayTest from "./test/display-test.sid";
   import RadioTest from "./test/radio-test.sid";
   import SVGTest from "./test/svg-test.sid";
-  // import SwitchTest from './switch-test.sid';
+  import SwitchTest from './test/switch-test.sid';
   // import HeaderTest from './header-test.sid';
   // import CodeHighlightTest from './code-highlight-test.sid';
 </script>
@@ -19,9 +19,13 @@ author: jmp
 <main>
   <!-- <TestIntoSlot /> -->
   <!-- <Test2 /> -->
-  <!-- <SwitchTest />
+  <!-- 
   <HeaderTest />
   <CodeHighlightTest /> -->
+
+  ## switch
+
+  <SwitchTest />
 
   ## boolean
 
