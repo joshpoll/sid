@@ -48,6 +48,13 @@ export default {
 			preprocess: [
         mdsvex({
           extensions: ['.sid'],
+          /* hack to allow layout variable to serve as any other piece of frontmatter */
+          // layout: './src/layout.svelte',
+          // layout: {
+          //   blog: "./src/layout.svelte",
+          //   centered: "./src/layout.svelte",
+          //   _: "./src/layout.svelte",
+          // }
         }),
         sveltePreprocess({ sourceMap: !production }),
       ],
