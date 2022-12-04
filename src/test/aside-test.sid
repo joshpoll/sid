@@ -1,0 +1,10 @@
+<script lang="ts">
+  import Aside from "../components/Aside.sid";
+</script>
+
+<Aside>
+  <h1>Aside</h1>
+  <p>
+    This is an aside.
+  </p>
+</Aside>

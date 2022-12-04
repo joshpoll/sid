@@ -1,6 +1,6 @@
 <script lang="ts">
   import InlineSVG from "svelte-inline-svg";
-  export let src: string | undefined;
+  export let src: string | undefined = undefined;
 </script>
 
 {#if src === undefined}

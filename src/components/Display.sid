@@ -1,9 +1,9 @@
 <script lang="ts">
   import {format as createFormatter} from "d3-format";
-  export let format: string | undefined;
+  export let format: string | undefined = undefined;
   export let value: any;
-  export let style: string | undefined;
-  export let className: string | undefined;
+  export let style: string | undefined = undefined;
+  export let className: string | undefined = undefined;
 
   const formatter = createFormatter(format || "0.2f");
 

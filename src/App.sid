@@ -1,71 +1,61 @@
 ---
 theme: tufte
+layout: blog
 title: foo
 author: jmp
 ---
 
 <script lang="ts">
-  export let name: string;
   import BooleanTest from "./test/boolean-test.sid";
   import ButtonTest from "./test/button-test.sid";
   import DisplayTest from "./test/display-test.sid";
   import RadioTest from "./test/radio-test.sid";
   import SVGTest from "./test/svg-test.sid";
   import SwitchTest from './test/switch-test.sid';
+  import AsideTest from "./test/aside-test.sid";
+  import TweetTest from "./test/tweet-test.sid";
   // import HeaderTest from './header-test.sid';
   // import CodeHighlightTest from './code-highlight-test.sid';
 </script>
 
-<main>
-  <!-- <TestIntoSlot /> -->
-  <!-- <Test2 /> -->
-  <!-- 
-  <HeaderTest />
-  <CodeHighlightTest /> -->
+<!-- 
+<HeaderTest />
+<CodeHighlightTest /> -->
 
-  ## switch
+## switch
 
-  <SwitchTest />
+<SwitchTest />
 
-  ## boolean
+## boolean
 
-  <BooleanTest />
+<BooleanTest />
 
-  ## button
+## button
 
-  <ButtonTest />
+<ButtonTest />
 
-  ## display
+## display
 
-  <DisplayTest />
+<DisplayTest />
 
-  ## radio
+## radio
 
-  <RadioTest />
+<RadioTest />
 
-  ## svg
+## svg
 
-  <SVGTest />
-</main>
+<SVGTest />
 
-<style>
-  main {
-    text-align: center;
-    padding: 1em;
-    max-width: 240px;
-    margin: 0 auto;
-  }
+## aside
 
-  h1 {
-    color: #ff3e00;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
-  }
+<AsideTest />
 
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
-  }
-</style>
+Here's some more text for the aside to be... to the side of.
+Here's some more text for the aside to be... to the side of.
+Here's some more text for the aside to be... to the side of.
+Here's some more text for the aside to be... to the side of.
+Here's some more text for the aside to be... to the side of.
+
+## tweet
+
+<TweetTest />
