@@ -1,0 +1,12 @@
+<script lang="ts">
+  import Button from "../components/Button.sid";
+  import Display from "../components/Display.sid";
+
+  let myVar = 0;
+</script>
+
+<Button onClick={() => myVar++}>
+  Click me
+</Button>
+
+Variable value: <Display value={myVar} />

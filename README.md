@@ -47,7 +47,7 @@ svelte's language server protocol (LSP) goodness.
 
 ### Level 1
 - [x] boolean
-- [ ] button
+- [x] button
 - [ ] aside
 - [ ] inline
 - [ ] code-highlight

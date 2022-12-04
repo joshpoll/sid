@@ -6,6 +6,8 @@ title: foo
 <script lang='ts'>
   export let name: string;
   import BooleanTest from './test/boolean-test.sid';
+  import ButtonTest from './test/button-test.sid';
+  import DisplayTest from './test/display-test.sid';
   // import Test from './TestUntyped.sid';
   import Test from './test/Test.sid';
   // import TestIntoSlot from './TestIntoSlot.svelte';
@@ -28,6 +30,8 @@ title: foo
   <HeaderTest />
   <CodeHighlightTest /> -->
   <BooleanTest />
+  <ButtonTest />
+  <DisplayTest />
 </main>
 
 <style>

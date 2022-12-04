@@ -1,0 +1,5 @@
+<script lang="ts">
+  import Display from "../components/Display.sid";
+</script>
+
+<Display value={10} />
