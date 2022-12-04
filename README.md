@@ -64,7 +64,6 @@ svelte's language server protocol (LSP) goodness.
 - [ ] graphic
 - [ ] action
 
-
 ### Level 2+
 - [ ] chart
 - [ ] cite
