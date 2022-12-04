@@ -1,9 +1,12 @@
 <script lang="ts">
   import Display from "../components/Display.sid";
-import Radio from "../components/Radio.sid";
+  import Radio from "../components/Radio.sid";
 
   let radioVal = "test1";
 </script>
 
-<Radio bind:value={radioVal} options={["test1", "test2"]}  />
+<Radio
+  bind:value={radioVal}
+  options={["test1", "test2", { value: "test3", label: "test3 label" }]}
+/>
 <Display value={radioVal} />
