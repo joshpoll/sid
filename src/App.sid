@@ -5,9 +5,9 @@ title: foo
 
 <script lang='ts'>
   export let name: string;
-  import BooleanTest from './boolean-test.sid';
+  import BooleanTest from './test/boolean-test.sid';
   // import Test from './TestUntyped.sid';
-  import Test from './Test.sid';
+  import Test from './test/Test.sid';
   // import TestIntoSlot from './TestIntoSlot.svelte';
   // import Test2 from './Test2.svelte';
   // import SwitchTest from './switch-test.sid';
