@@ -6,4 +6,5 @@ declare module "*.sid" {
   import type { ComponentType } from "svelte";
   const component: ComponentType;
   export default component;
+  export const metadata: { [key: string]: any };
 }

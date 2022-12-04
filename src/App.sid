@@ -1,3 +1,9 @@
+---
+theme: tufte
+title: foo
+author: jmp
+---
+
 <script lang="ts">
   export let name: string;
   import BooleanTest from "./test/boolean-test.sid";
@@ -5,51 +11,35 @@
   import DisplayTest from "./test/display-test.sid";
   import RadioTest from "./test/radio-test.sid";
   import SVGTest from "./test/svg-test.sid";
-  // import Test from './TestUntyped.sid';
-  import Test from "./test/Test.sid";
-  // import TestIntoSlot from './TestIntoSlot.svelte';
-  // import Test2 from './Test2.svelte';
   // import SwitchTest from './switch-test.sid';
   // import HeaderTest from './header-test.sid';
   // import CodeHighlightTest from './code-highlight-test.sid';
 </script>
 
-<!-- prettier-ignore -->
----
-theme: github
-title: foo
----
-
 <main>
-  <h1>Hello {name}!</h1>
-  <p>
-    Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
-    how to build Svelte apps.
-  </p>
-  <Test />
   <!-- <TestIntoSlot /> -->
   <!-- <Test2 /> -->
   <!-- <SwitchTest />
   <HeaderTest />
   <CodeHighlightTest /> -->
 
-  **boolean**
+  ## boolean
 
   <BooleanTest />
 
-  **button**
+  ## button
 
   <ButtonTest />
 
-  **display**
+  ## display
 
   <DisplayTest />
 
-  **radio**
+  ## radio
 
   <RadioTest />
 
-  **svg**
+  ## svg
 
   <SVGTest />
 </main>
