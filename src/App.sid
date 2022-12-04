@@ -1,22 +1,24 @@
----
-theme: github
-title: foo
----
-
-<script lang='ts'>
+<script lang="ts">
   export let name: string;
-  import BooleanTest from './test/boolean-test.sid';
-  import ButtonTest from './test/button-test.sid';
-  import DisplayTest from './test/display-test.sid';
-  import RadioTest from './test/radio-test.sid';
+  import BooleanTest from "./test/boolean-test.sid";
+  import ButtonTest from "./test/button-test.sid";
+  import DisplayTest from "./test/display-test.sid";
+  import RadioTest from "./test/radio-test.sid";
+  import SVGTest from "./test/svg-test.sid";
   // import Test from './TestUntyped.sid';
-  import Test from './test/Test.sid';
+  import Test from "./test/Test.sid";
   // import TestIntoSlot from './TestIntoSlot.svelte';
   // import Test2 from './Test2.svelte';
   // import SwitchTest from './switch-test.sid';
   // import HeaderTest from './header-test.sid';
   // import CodeHighlightTest from './code-highlight-test.sid';
 </script>
+
+<!-- prettier-ignore -->
+---
+theme: github
+title: foo
+---
 
 <main>
   <h1>Hello {name}!</h1>
@@ -30,10 +32,26 @@ title: foo
   <!-- <SwitchTest />
   <HeaderTest />
   <CodeHighlightTest /> -->
+
+  **boolean**
+
   <BooleanTest />
+
+  **button**
+
   <ButtonTest />
+
+  **display**
+
   <DisplayTest />
+
+  **radio**
+
   <RadioTest />
+
+  **svg**
+
+  <SVGTest />
 </main>
 
 <style>

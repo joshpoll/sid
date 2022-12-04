@@ -54,7 +54,7 @@ svelte's language server protocol (LSP) goodness.
 - [x] display
 - [ ] image
 - [ ] link
-- [ ] svg
+- [x] svg
 - [x] radio
 - [ ] float
 - [ ] fixed
