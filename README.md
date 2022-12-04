@@ -51,7 +51,7 @@ svelte's language server protocol (LSP) goodness.
 - [ ] aside
 - [ ] inline
 - [ ] code-highlight
-- [ ] display
+- [x] display
 - [ ] image
 - [ ] link
 - [ ] svg
