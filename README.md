@@ -5,6 +5,15 @@ This is take two of porting Idyll to Svelte.
 To use this in VSCode make sure to set up the file association from `*.sid` to `svelte` by searching
 your VSCode settings for "file association" and then filling out a new row in the table.
 
+## How to Use
+
+Currently there's no easy way to use this as a standalone library. So for now...
+
+1. Clone the repo
+2. `yarn`
+3. `yarn dev`
+4. Hack on the `App.sid` file.
+
 ## Why?
 
 Idyll and Svelte are great tools on their own, but even better together.
