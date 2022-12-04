@@ -4,6 +4,7 @@
   import Test2 from './Test2.svelte';
   import SwitchTest from './switch-test.sid';
   import HeaderTest from './header-test.sid';
+  import CodeHighlightTest from './code-highlight-test.sid';
 </script>
 
 <main>
@@ -14,6 +15,7 @@
   <Test2 />
   <SwitchTest />
   <HeaderTest />
+  <CodeHighlightTest />
 </main>
 
 <style>

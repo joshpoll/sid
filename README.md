@@ -32,72 +32,77 @@ svelte's language server protocol (LSP) goodness.
 # Progress
 
 ## Components
-- [ ] action
-- [ ] analytics
-- [ ] annotation
-- [ ] aside
-- [ ] boolean
-- [ ] button
+
+### Level 0
 - [x] case (svelte if/else)
-- [ ] chart
-- [ ] cite
-- [ ] code-highlight
-- [ ] conditional
-- [ ] default
-- [ ] desmos
-- [ ] display
-- [ ] dynamic
-- [ ] equation
-- [ ] fixed
-- [ ] float
-- [ ] generateHeaders
-- [ ] gist
-- [ ] graphic
+- [x] conditional (svelte if/else)
+- [x] default (svelte if/else)
+- [x] switch (svelte if/else)
 - [x] h1 (md #)
 - [x] h2 (md ##)
 - [x] h3 (md ###)
 - [x] h4 (md ####)
 - [x] h5 (md #####)
 - [x] h6 (md ######)
-- [ ] header
-- [x] image (html img)
+
+### Level 1
+- [ ] boolean
+- [ ] button
+- [ ] aside
 - [ ] inline
+- [ ] code-highlight
+- [ ] display
+- [ ] image
 - [ ] link
+- [ ] svg
+- [ ] radio
+- [ ] float
+- [ ] fixed
+- [ ] range
+- [ ] select
+- [ ] text-container
+- [ ] graphic
+- [ ] action
+
+
+### Level 2+
+- [ ] chart
+- [ ] cite
+- [ ] desmos
+- [ ] header
+- [ ] youtube
+- [ ] tweet
+- [ ] table
 - [ ] loop
+- [ ] text-input
 - [ ] preload
 - [ ] preview
-- [ ] radio
-- [ ] range
-- [ ] scrollama
+- [ ] gist
+- [ ] analytics
+- [ ] annotation
+- [ ] dynamic
+- [ ] equation
 - [ ] scroller
-- [ ] select
 - [ ] step
 - [ ] stepper-control
 - [ ] stepper
-- [ ] svg
-- [x] switch (svelte if/else)
-- [ ] table
-- [ ] text-container
-- [ ] text-input
-- [ ] tweet
-- [ ] youtube
 
 ## Layouts
 - [ ] blog
 - [ ] centered
 - [ ] none
 
-## Template Projects
-- [ ] article
-- [ ] multipage
-- [ ] scrollytelling
-- [ ] slideshow
-
 ## Themes
 - [ ] github
 - [ ] idyll
 - [ ] none
 - [ ] tufte
+
+## Template Projects
+- [ ] article
+- [ ] multipage
+- [ ] scrollytelling
+- [ ] slideshow
 
 ## Fidyll
 
