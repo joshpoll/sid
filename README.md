@@ -87,15 +87,15 @@ svelte's language server protocol (LSP) goodness.
 - [ ] stepper
 
 ## Layouts
-- [ ] blog
-- [ ] centered
-- [ ] none
+- [x] blog
+- [x] centered
+- [x] none
 
 ## Themes
-- [ ] github
-- [ ] idyll
-- [ ] none
-- [ ] tufte
+- [x] github
+- [x] idyll
+- [x] none
+- [x] tufte
 
 ## Template Projects
 - [ ] article
