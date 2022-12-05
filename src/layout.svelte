@@ -28,7 +28,8 @@
 </svelte:head>
 <slot /> -->
 <script lang="ts">
-  import App, { metadata } from './App.sid';
+  // @ts-ignore
+  import App, { metadata } from './App.svelte';
 
   const layout = metadata.layout;
   const theme = metadata.theme;

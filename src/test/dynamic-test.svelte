@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Dynamic from "../components/Dynamic.sid";
+  import Dynamic from "../components/Dynamic.svelte";
 
   let myVar = 10;
 </script>

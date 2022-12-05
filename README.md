@@ -2,8 +2,8 @@
 
 This is take two of porting Idyll to Svelte.
 
-To use this in VSCode make sure to set up the file association from `*.sid` to `svelte` by searching
-your VSCode settings for "file association" and then filling out a new row in the table.
+<!-- To use this in VSCode make sure to set up the file association from `*.sid` to `svelte` by searching -->
+<!-- your VSCode settings for "file association" and then filling out a new row in the table. -->
 
 ## How to Use
 
@@ -12,7 +12,7 @@ Currently there's no easy way to use this as a standalone library. So for now...
 1. Clone the repo
 2. `yarn`
 3. `yarn dev`
-4. Hack on the `App.sid` file.
+4. Hack on the `App.svelte` file.
 
 ## Why?
 
@@ -35,7 +35,7 @@ that lets you
 
 To support mixed markdown/code files, we use pngwn's [MDsveX
 preprocessor](https://github.com/pngwn/MDsveX). This preprocessor also gives us a way to supply
-frontmatter and layout configuration. By associating our `.sid` files with svelte, we get access to
+frontmatter and layout configuration. Since sid files are just special svelte files, we get access to
 svelte's language server protocol (LSP) goodness.
 
 # Progress

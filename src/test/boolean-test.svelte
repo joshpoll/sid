@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Boolean from "../components/Boolean.sid";
+  import Boolean from "../components/Boolean.svelte";
 
   let myVar = false;
 </script>

@@ -6,18 +6,20 @@ author: jmp
 ---
 
 <script lang="ts">
-  import BooleanTest from "./test/boolean-test.sid";
-  import ButtonTest from "./test/button-test.sid";
-  import DisplayTest from "./test/display-test.sid";
-  import RadioTest from "./test/radio-test.sid";
-  import SVGTest from "./test/svg-test.sid";
-  import SwitchTest from './test/switch-test.sid';
-  import AsideTest from "./test/aside-test.sid";
-  import TweetTest from "./test/tweet-test.sid";
-  import DynamicTest from "./test/dynamic-test.sid";
-  // import HeaderTest from './header-test.sid';
-  // import CodeHighlightTest from './code-highlight-test.sid';
+  import BooleanTest from "./test/boolean-test.svelte";
+  import ButtonTest from "./test/button-test.svelte";
+  import DisplayTest from "./test/display-test.svelte";
+  import RadioTest from "./test/radio-test.svelte";
+  import SVGTest from "./test/svg-test.svelte";
+  import SwitchTest from './test/switch-test.svelte';
+  import AsideTest from "./test/aside-test.svelte";
+  import TweetTest from "./test/tweet-test.svelte";
+  import DynamicTest from "./test/dynamic-test.svelte";
+  // import HeaderTest from './header-test.svelte';
+  // import CodeHighlightTest from './code-highlight-test.svelte';
 </script>
+
+# Component Tests
 
 <!-- 
 <HeaderTest />

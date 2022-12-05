@@ -1,4 +1,4 @@
-// import App from './App.sid';
+// import App from './App.svelte';
 import App from './layout.svelte';
 
 const app = new App({

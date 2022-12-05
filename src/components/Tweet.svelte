@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
 
-  export let id: number;
+  export let id: string;
   export let parameters: any = undefined;
   let loading = true;
   let loadingMessage = "Loading tweet...";

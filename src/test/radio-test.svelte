@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Display from "../components/Display.sid";
-  import Radio from "../components/Radio.sid";
+  import Display from "../components/Display.svelte";
+  import Radio from "../components/Radio.svelte";
 
   let radioVal = "test1";
 </script>

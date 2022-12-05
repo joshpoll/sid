@@ -1,5 +1,5 @@
 <script lang="ts">
-  import SVG from "../components/SVG.sid";
+  import SVG from "../components/SVG.svelte";
 </script>
 
 <SVG

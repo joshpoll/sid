@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Aside from "../components/Aside.sid";
+  import Aside from "../components/Aside.svelte";
 </script>
 
 <Aside>

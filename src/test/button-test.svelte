@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Button from "../components/Button.sid";
-  import Display from "../components/Display.sid";
+  import Button from "../components/Button.svelte";
+  import Display from "../components/Display.svelte";
 
   let myVar = 0;
 </script>
