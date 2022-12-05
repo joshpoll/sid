@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    {
+      "files": "*/App.svelte",
+      "options": {
+        "svelteSortOrder": "markup-options-scripts-styles"
+      }
+    }
+  ]
+}

@@ -7,6 +7,8 @@ import sveltePreprocess from 'svelte-preprocess';
 import typescript from '@rollup/plugin-typescript';
 import css from 'rollup-plugin-css-only';
 import { mdsvex } from 'mdsvex';
+import json from '@rollup/plugin-json';
+import { parse as yaml } from 'yaml';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -40,10 +42,28 @@ export default {
 		file: 'public/build/bundle.js'
 	},
 	plugins: [
+    json(),
 		svelte({
 			preprocess: [
         mdsvex({
           extensions: ['.svelte'],
+          frontmatter: {
+            marker: '-',
+            type: 'yaml',
+            parse(frontmatter, messages) {
+              // parse frontmatter as YAML, but throw out the prettier-ignore at the beginning
+              // frontmatter is a YAML string where the first line is a prettier-ignore comment
+              // this is to prevent prettier from messing up the frontmatter.
+              // the comment looks like this: <!-- prettier-ignore -->
+              try {
+                console.log(frontmatter);
+                return yaml(frontmatter.replace(/<!--\s*prettier-ignore\s*-->/, ''));
+              } catch (e) {
+                // handle YAMLParseError. TODO: make this better
+                messages.push(`YAML parse error: ${e.message}`);
+              }
+            }
+          }
         }),
         sveltePreprocess({ sourceMap: !production }),
       ],
