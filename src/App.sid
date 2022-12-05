@@ -14,6 +14,7 @@ author: jmp
   import SwitchTest from './test/switch-test.sid';
   import AsideTest from "./test/aside-test.sid";
   import TweetTest from "./test/tweet-test.sid";
+  import DynamicTest from "./test/dynamic-test.sid";
   // import HeaderTest from './header-test.sid';
   // import CodeHighlightTest from './code-highlight-test.sid';
 </script>
@@ -21,6 +22,10 @@ author: jmp
 <!-- 
 <HeaderTest />
 <CodeHighlightTest /> -->
+
+## dynamic
+
+<DynamicTest />
 
 ## switch
 

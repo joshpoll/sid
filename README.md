@@ -88,7 +88,7 @@ svelte's language server protocol (LSP) goodness.
 - [ ] gist
 - [ ] analytics
 - [ ] annotation
-- [ ] dynamic
+- [x] dynamic
 - [ ] equation
 - [ ] scroller
 - [ ] step

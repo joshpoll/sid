@@ -13,6 +13,8 @@
     "@rollup/plugin-node-resolve": "^11.0.0",
     "@rollup/plugin-typescript": "^8.0.0",
     "@tsconfig/svelte": "^3.0.0",
+    "@types/d3-drag": "^3.0.1",
+    "@types/d3-selection": "^3.0.3",
     "mdsvex": "^0.10.6",
     "rollup": "^2.3.4",
     "rollup-plugin-css-only": "^3.1.0",
@@ -29,7 +31,9 @@
     "@carbon/charts-svelte": "^1.6.1",
     "@types/d3-format": "^3.0.1",
     "d3": "^7.7.0",
+    "d3-drag": "^3.0.0",
     "d3-format": "^3.1.0",
+    "d3-selection": "^3.0.0",
     "sass": "^1.56.1",
     "sirv-cli": "^2.0.0",
     "svelte-inline-svg": "^1.2.0"
