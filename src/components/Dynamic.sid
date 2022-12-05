@@ -52,5 +52,5 @@
   {style}
   class="idyll-dynamic"
 >
-  <p>{transformValue(value)}</p>
+  {transformValue(value)}
 </span>
