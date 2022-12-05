@@ -79,7 +79,7 @@ svelte's language server protocol (LSP) goodness.
 - [ ] desmos
 - [ ] header
 - [ ] youtube
-- [ ] tweet
+- [x] tweet
 - [ ] table
 - [ ] loop
 - [ ] text-input

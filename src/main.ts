@@ -4,7 +4,7 @@ import App from './layout.svelte';
 const app = new App({
 	target: document.body,
 	props: {
-		name: 'world'
+		// name: 'world'
 	}
 });
 

@@ -1426,11 +1426,6 @@ svelte-preprocess@^4.0.0:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-svelte-twitter-widgets@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/svelte-twitter-widgets/-/svelte-twitter-widgets-0.1.0.tgz#b45b219c2bc70f8c84b2063bf6590b197cd84b21"
-  integrity sha512-JMOfJG2544v73SLzNtlW2iOIyRxMMqZRi3OOGn7V6vSfOBIY7BEqkAdZ3OcuUrfyEzfj/cq/YdsckRmdpm1gWw==
-
 svelte@^3.0.0:
   version "3.53.1"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.53.1.tgz#db9d7df7a8f570e8e22547444c149208b1914442"

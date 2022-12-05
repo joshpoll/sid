@@ -32,7 +32,6 @@
     "d3-format": "^3.1.0",
     "sass": "^1.56.1",
     "sirv-cli": "^2.0.0",
-    "svelte-inline-svg": "^1.2.0",
-    "svelte-twitter-widgets": "^0.1.0"
+    "svelte-inline-svg": "^1.2.0"
   }
 }
