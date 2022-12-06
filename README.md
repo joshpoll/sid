@@ -67,7 +67,7 @@ svelte's language server protocol (LSP) goodness.
 - [x] radio
 - [ ] float
 - [ ] fixed
-- [ ] range
+- [x] range
 - [ ] select
 - [ ] text-container
 - [ ] graphic

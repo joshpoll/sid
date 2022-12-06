@@ -28,6 +28,10 @@ authors: ['jmp', 'matt']
 
 <DisplayTest />
 
+## range
+
+<RangeTest />
+
 ## radio
 
 <RadioTest />
@@ -63,5 +67,6 @@ side of. Here's some more text for the aside to be... to the side of. ## tweet
   import DynamicTest from "./test/dynamic-test.svelte";
   import Chart from "./components/Chart.svelte";
   import HeaderTest from "./test/header-test.svelte";
+  import RangeTest from "./test/range-test.svelte";
   // import CodeHighlightTest from './code-highlight-test.svelte';
 </script>
