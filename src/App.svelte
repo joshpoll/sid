@@ -2,13 +2,11 @@
 <!-- prettier-ignore -->
 theme: tufte
 layout: blog
-title: foo
-author: jmp
+title: Hello Sid!
+authors: ['jmp', 'matt']
 ---
 
-<!-- 
 <HeaderTest />
-<CodeHighlightTest /> -->
 
 ## dynamic
 
@@ -49,6 +47,8 @@ side of. Here's some more text for the aside to be... to the side of. ## tweet
 
 <TweetTest />
 
+## chart
+
 <Chart />
 
 <script lang="ts">
@@ -62,6 +62,6 @@ side of. Here's some more text for the aside to be... to the side of. ## tweet
   import TweetTest from "./test/tweet-test.svelte";
   import DynamicTest from "./test/dynamic-test.svelte";
   import Chart from "./components/Chart.svelte";
-  // import HeaderTest from './header-test.svelte';
+  import HeaderTest from "./test/header-test.svelte";
   // import CodeHighlightTest from './code-highlight-test.svelte';
 </script>

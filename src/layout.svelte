@@ -2,8 +2,18 @@
   // @ts-ignore
   import App, { metadata } from "./App.svelte";
 
-  const layout = metadata.layout;
-  const theme = metadata.theme;
+  import Header from "./components/Header.svelte";
+
+  const layout: string | undefined = metadata.layout;
+  const theme: string | undefined = metadata.theme;
+  const style: string | undefined = metadata.style;
+  const title: string | undefined = metadata.title;
+  const subtitle: string | undefined = metadata.subtitle;
+  const author: string | undefined = metadata.author;
+  const authorLink: string | undefined = metadata.authorLink;
+  const authors: (string | { name: string; link?: string })[] | undefined =
+    metadata.authors;
+  const date: string | undefined = metadata.date;
 </script>
 
 <svelte:head>
@@ -29,4 +39,5 @@
     <link rel="stylesheet" href="layouts/default.css" />
   {/if}
 </svelte:head>
+<Header {style} {title} {subtitle} {author} {authorLink} {authors} {date} />
 <App />

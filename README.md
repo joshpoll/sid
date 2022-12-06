@@ -77,7 +77,7 @@ svelte's language server protocol (LSP) goodness.
 - [ ] chart
 - [ ] cite
 - [ ] desmos
-- [ ] header
+- [x] header
 - [ ] youtube
 - [x] tweet
 - [ ] table
