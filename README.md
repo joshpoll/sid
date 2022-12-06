@@ -53,6 +53,7 @@ svelte's language server protocol (LSP) goodness.
 - [x] h4 (md ####)
 - [x] h5 (md #####)
 - [x] h6 (md ######)
+- [x] link (md []())
 
 ### Level 1
 - [x] boolean
@@ -62,7 +63,6 @@ svelte's language server protocol (LSP) goodness.
 - [ ] code-highlight
 - [x] display
 - [ ] image
-- [ ] link
 - [x] svg
 - [x] radio
 - [ ] float
