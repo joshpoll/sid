@@ -34,15 +34,15 @@
   function loadTweet() {
     const twttr = window["twttr"];
 
-    twttr.widgets.createTweet("" + id, tweetContainer, parameters).then(
-      (el) => {
+    twttr.widgets
+      .createTweet("" + id, tweetContainer, parameters)
+      .then((el) => {
         if (el) {
           loading = false;
         } else {
           loadingMessage = `Error loading tweet ${id}.`;
         }
-      }
-    );
+      });
   }
 
   onMount(async () => {
@@ -62,7 +62,7 @@
 <div
   class="tweet-container"
   bind:this={tweetContainer}
-  style={style ?? "{ minHeight: 309, marginTop: 10, marginBottom: 10 }"}
+  style={style ?? "minHeight: 309; marginTop: 10; marginBottom: 10"}
 >
   {#if loading}
     <p class="loading">{loadingMessage}</p>

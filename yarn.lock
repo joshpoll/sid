@@ -1102,6 +1102,11 @@ json-stringify-pretty-compact@^3.0.0, json-stringify-pretty-compact@~3.0.0:
   resolved "https://registry.yarnpkg.com/json-stringify-pretty-compact/-/json-stringify-pretty-compact-3.0.0.tgz#f71ef9d82ef16483a407869556588e91b681d9ab"
   integrity sha512-Rc2suX5meI0S3bfdZuA7JMFBGkJ875ApfVyq2WHELjBiiG22My/l7/8zPpH/CfFVQHuVLd8NLR0nv6vi0BYYKA==
 
+json-to-css@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/json-to-css/-/json-to-css-0.1.0.tgz#4b3d104e8ed2c81b8a071eb86953d1936b3a08e6"
+  integrity sha512-0A6Xooey9slodt9MX7wWRVNo5G7fujVlBkdyhjNPg3GzoJW7j5EBD/Duw3zK3V132Ma/HTEnBRchl1PmOWiZgg==
+
 kleur@^4.1.4:
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-4.1.5.tgz#95106101795f7050c6c650f350c683febddb1780"

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { inlineCssOf } from "../json-to-inline-css.svelte";
   import ByLineMultipleAuthors from "./header-util/ByLineMultipleAuthors.svelte";
 
   export let style: string = "{}";
@@ -28,7 +29,7 @@
 
 <div
   class={"article-header"}
-  style={JSON.stringify({
+  style={inlineCssOf({
     background,
     color,
     ...JSON.parse(style),
@@ -48,7 +49,7 @@
           target="_blank"
           rel="noreferrer"
           href={authorLink}
-          style={`{ color: ${color} }`}
+          style={`color: ${color}`}
         >
           {author}
         </a>

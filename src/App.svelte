@@ -59,6 +59,10 @@ side of. Here's some more text for the aside to be... to the side of. ## tweet
 
 <Chart />
 
+## float
+
+<FloatTest />
+
 <script lang="ts">
   import BooleanTest from "./test/boolean-test.svelte";
   import ButtonTest from "./test/button-test.svelte";
@@ -73,5 +77,6 @@ side of. Here's some more text for the aside to be... to the side of. ## tweet
   import HeaderTest from "./test/header-test.svelte";
   import RangeTest from "./test/range-test.svelte";
   import LinkTest from "./test/link-test.svelte";
+  import FloatTest from "./test/float-test.svelte";
   // import CodeHighlightTest from './code-highlight-test.svelte';
 </script>

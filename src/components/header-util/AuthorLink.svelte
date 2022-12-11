@@ -9,7 +9,7 @@
     {name}
   </span>
 {:else}
-  <a target="_blank" rel="noreferrer" href={link} style={`{ color: ${color} }`}>
+  <a target="_blank" rel="noreferrer" href={link} style={`color: ${color}`}>
     {name}
   </a>
 {/if}
